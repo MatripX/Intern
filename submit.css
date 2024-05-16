@@ -1,0 +1,28 @@
+body {
+    background-image: linear-gradient(90deg, #d174d2, #e0563f, #3f567f, #412653);
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: black;
+}
+
+.containderImg {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+img {
+    width: 900px;
+    height: 500px;
+
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+}
