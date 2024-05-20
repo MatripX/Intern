@@ -8,6 +8,12 @@ body {
     font-size: 20px;
     letter-spacing: 2px;
 }
+#p2 {
+    color: #6E2C00;
+    font-family: inherit;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
 
 #button {
     width: 100px;
@@ -51,6 +57,7 @@ button {
 }
 
 .Tourism {
+    border-radius: 35px;
     margin: 0 auto;
     background-image: linear-gradient(-45deg, #1C2833, #2C3E50, #212F3C, #45a29e);
     margin-bottom: 10px;
@@ -60,8 +67,24 @@ button {
     position: relative;
     background-size: 400% 400%;
     animation: gradient 14s ease infinite;
+    
 
 }
+.Tou{
+    border-radius: 35px;
+     margin: 0 auto;
+    background-image: linear-gradient(-45deg, #2E4053, #7F8C8D, #99A3A4,#B2BABB );
+    margin-bottom: 10px;
+    text-align: center;
+    width: 1320px;
+    height: 130px;
+    position: relative;
+    background-size: 400% 400%;
+    animation: gradient 14s ease infinite;
+
+}
+
+
 
 @keyframes gradient {
     0% {
