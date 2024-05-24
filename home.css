@@ -1,0 +1,134 @@
+body {
+    background-image: linear-gradient(45deg, #212a31, #2e3944, #124e66, #748d92, #d3d9d4);
+}
+
+#p1 {
+    color: #D5D8DC;
+    font-family: inherit;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+#p2 {
+    color: #6E2C00;
+    font-family: inherit;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#button {
+    width: 100px;
+    height: 50px;
+    color: rgb(52, 152, 70);
+
+}
+#image{
+    margin: 0 auto;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    color: rgb(52, 152, 70);
+}
+
+.containerimg {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+img {
+    width: 900px;
+    height: 450px;
+
+}
+
+h1 {
+    color: rgb(63, 10, 91);
+    font-family: serif;
+    font-size: 45px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+
+}
+
+button {
+    position: sticky;
+    top: 40px;
+    left: 600px;
+}
+
+.Tourism {
+    border-radius: 35px;
+    margin: 0 auto;
+    background-image: linear-gradient(-45deg, #1C2833, #2C3E50, #212F3C, #45a29e);
+    margin-bottom: 10px;
+    text-align: center;
+    width: 1320px;
+    height: 130px;
+    position: relative;
+    background-size: 400% 400%;
+    animation: gradient 14s ease infinite;
+    
+
+}
+.Tou{
+    border-radius: 35px;
+     margin: 0 auto;
+    background-image: linear-gradient(-45deg, #2E4053, #7F8C8D, #99A3A4,#B2BABB );
+    margin-bottom: 10px;
+    text-align: center;
+    width: 1320px;
+    height: 130px;
+    position: relative;
+    background-size: 400% 400%;
+    animation: gradient 14s ease infinite;
+
+}
+
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+ul {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+li {
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+ul li {
+
+    display: inline;
+    margin-right: 30px;
+
+}
+
+ul li a {
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.footer {
+    width: 1335px;
+    height: 100px;
+    background-image: linear-gradient(-90deg, #1f2833, #c5c6c7, #66fcf1, #45a29e);
+    text-align: center;
+
+}
