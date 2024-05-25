@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('ser.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.about, .services {
+    background: rgba(0, 0, 0, 0.7);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
